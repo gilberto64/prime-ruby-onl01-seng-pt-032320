@@ -1,5 +1,5 @@
 def prime?(num)
-  #counter 
+  # counter = 0  
   #while counter < num.length  
   if num < 2  
    false
@@ -12,6 +12,6 @@ def prime?(num)
   else 
     true 
   end
-  counter = counter + 1
+  # counter = counter + 1
 end 
 
