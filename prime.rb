@@ -8,7 +8,7 @@ def prime?(num)
      
   elsif num % 5 == 0 || num % 7 == 0 || num % 11 == 0 || num % 13 == 0 || 
      
-  end
+
 end 
  
 
