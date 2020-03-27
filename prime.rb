@@ -18,7 +18,8 @@ def prime?(num)
     return false
   else 
     (2..(num - 1)).each do |n|
-    return false num % n == 0
+    return false if num % n == 0
   end
   true
+end 
 end
