@@ -9,6 +9,6 @@ def prime?(num)
   elsif num % 3 == 0 || num % 5 == 0 || num % 7 == 0 || num % 11 == 0 || num % 13 == 0 || num % 17 == 0 || num % 19 == 0
      return false 
   else 
-    return true 
+    return false 
   end 
 end 
