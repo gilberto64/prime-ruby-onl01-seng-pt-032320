@@ -14,8 +14,11 @@
 # end 
 
 def prime?(num)
-  (2..(num - 1)).each do |n|
-    return false if num < 2 || num % n == 0
+  if num < 2 
+    return false
+  else 
+    (2..(num - 1)).each do |n|
+    return false num % n == 0
   end
   true
 end
