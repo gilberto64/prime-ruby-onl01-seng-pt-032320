@@ -1,7 +1,7 @@
 def prime?(num)
   num.to_i 
   if num < 2 
-    puts "false" 
+    return "false" 
   elsif num == 2 || num == 3
     puts "true"   
   elsif num.even?
