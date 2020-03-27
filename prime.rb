@@ -6,7 +6,7 @@ def prime?(num)
     return true   
   elsif num.even?
     return false 
-  elsif num % 5 == 0 || num % 7 == 0 || num % 11 == 0 || num % 13 == 0 
+  elsif num % 5 == 0 || num % 7 == 0 || num % 11 == 0 || num % 13 == 0 || num % 17 == 0 || num % 19 == 0
      return true 
   else 
     return false  
