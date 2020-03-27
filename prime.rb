@@ -1,6 +1,7 @@
 def prime?(num)
-  
-  if num  < 2  
+  (num).to_a
+end 
+  # if num  < 2  
     
     # num % 5 == 0 || num % 7 == 0 || num % 11 == 0 || num % 13 == 0 || 
     #  true 
@@ -9,5 +10,5 @@ def prime?(num)
     # end
     # counter = counter + 1
 # end 
-end 
+# end 
 
