@@ -14,4 +14,5 @@ def prime?(num)
     end
     counter = counter + 1
 end 
+end 
 
