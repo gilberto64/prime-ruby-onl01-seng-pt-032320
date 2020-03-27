@@ -1,5 +1,5 @@
 def prime?(num)
-  
+  (num).to_a 
   counter = 0  
   while counter < num.length  
     if num < 2  
