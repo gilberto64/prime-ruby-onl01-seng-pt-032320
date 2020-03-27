@@ -1,5 +1,5 @@
 def prime?(num)
-  (num).to_i 
+  num.to_i 
   if num < 2 
     puts "false" 
   elsif num == 2 || num == 3
