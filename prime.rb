@@ -1,5 +1,5 @@
 def prime?(num)
-  (num).to_a
+  (num).to_i 
 end 
   # if num  < 2  
     
